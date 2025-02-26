@@ -1207,7 +1207,6 @@ p {
   }
 }
 
-
 .header-eight::before {
   content: "";
   position: absolute;
@@ -1896,6 +1895,10 @@ p {
 }
 .latest-news-area .single-news:hover .image .thumb {
   transform: scale(1.1) rotate(1deg);
+}
+
+.news-image {
+  border: 1px solid var(--primary);
 }
 
 /* team section */
