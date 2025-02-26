@@ -1190,7 +1190,23 @@ p {
   padding: 0;
   background: url("assets/images/footer_11zon.webp") no-repeat center center;
   background-size: cover;
+
+  /* Start with 0 opacity */
+  opacity: 0;
+
+  /* Add a fade-in animation */
+  animation: fadeIn 1s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .header-eight::before {
   content: "";
