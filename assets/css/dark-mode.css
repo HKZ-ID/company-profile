@@ -1,0 +1,117 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+body.dark-mode .navbar-area {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .sidebar-left {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .footer-area {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .section-title-five h2,
+body.dark-mode .section-title-five h6 {
+    color: #bb86fc;
+}
+
+body.dark-mode .primary-btn {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+body.dark-mode .primary-btn:hover {
+    background-color: #3700b3;
+    color: #ffffff;
+}
+
+/* Add more dark mode styles as needed */
+
+/* Dark mode styles for the "OUR STORY" section */
+body.dark-mode .about-five {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode .about-five .main-title,
+body.dark-mode .about-five .small-title,
+body.dark-mode .about-five .nav-link {
+    color: #bb86fc;
+}
+
+body.dark-mode .about-five .tab-content p {
+    color: #e0e0e0;
+}
+
+/* Dark mode styles for the "Pricing" section */
+body.dark-mode .pricing-area {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode .pricing-area .section-title-five h2,
+body.dark-mode .pricing-area .section-title-five h6 {
+    color: #bb86fc;
+}
+
+body.dark-mode .pricing-area .pricing-style-fourteen {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .pricing-area .pricing-style-fourteen .title,
+body.dark-mode .pricing-area .pricing-style-fourteen .amount,
+body.dark-mode .pricing-area .pricing-style-fourteen .currency,
+body.dark-mode .pricing-area .pricing-style-fourteen .duration {
+    color: #bb86fc;
+}
+
+/* Dark mode styles for the "Latest News" section */
+body.dark-mode .latest-news-area {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode .latest-news-area .section-title-five h2,
+body.dark-mode .latest-news-area .section-title-five h6 {
+    color: #bb86fc;
+}
+
+body.dark-mode .latest-news-area .single-news {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .latest-news-area .single-news .title a {
+    color: #bb86fc;
+}
+
+/* Dark mode styles for the "Meet our Clients" section */
+body.dark-mode .brand-area {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode .brand-area .section-title-five h2,
+body.dark-mode .brand-area .section-title-five h6 {
+    color: #bb86fc;
+}
+
+body.dark-mode .brand-area .clients-logos .single-image {
+    background-color: #2a2a2a;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  body.dark-mode .navbar-area.navbar-nine .navbar .navbar-collapse {
+    background-color: #1f1f1f; /* Dark mode background color */
+  }
+}
