@@ -1181,8 +1181,9 @@ p {
 
 /* Ensure the hero section covers the full viewport height */
 .header-eight {
+  margin-top: 73px;
   position: relative;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1229,22 +1230,28 @@ p {
 }
 
 .header-eight .header-content h1 {
+  margin-top: 50px;
   font-weight: 700;
   color: var(--white);
   text-shadow: 0px 3px 8px #00000017;
   text-transform: capitalize;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 10px;
   white-space: normal; /* Allow text wrapping */
   word-wrap: break-word; /* Ensure long words break */
-  text-align: center; /* Keep it centered */
+  text-align: left; /* Keep it centered */
 }
 
+@media (max-width: 767px) {
+  .header-eight {
+    margin-top: 68px;
+  }
+}
 
 @media (max-width: 767px) {
   .header-eight .header-content h1 {
-    font-size: 32px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: px;
     white-space: normal;
   }
 }
@@ -1253,6 +1260,7 @@ p {
   color: var(--white);
   opacity: 0.7;
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .header-eight .header-content .underline-animation {
@@ -1833,7 +1841,7 @@ p {
 
 /*===== latest-news-area =====*/
 .latest-news-area {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .latest-news-area {
@@ -1850,7 +1858,7 @@ p {
   position: relative;
   border-radius: 4px;
   width: 100%; /* Full width of the parent */
-  aspect-ratio: 7 / 5; /* Ensure uniform aspect ratio */
+  aspect-ratio: 21 / 9; /* Ensure uniform aspect ratio */
   overflow: hidden; /* Prevent overflow issues */
 }
 
@@ -1859,7 +1867,7 @@ p {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  aspect-ratio: 7 / 5; /* Force the image to fit the aspect ratio */
+  aspect-ratio: 21 / 9; /* Force the image to fit the aspect ratio */
   transition: all 0.4s ease;
 }
 

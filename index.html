@@ -19,13 +19,14 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <!--====== gLightBox css ======-->
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="/assets/js/main.js"></script>
   </head>
   <body>
     <!--====== NAVBAR NINE PART START ======-->
@@ -117,7 +118,7 @@
     <div class="overlay-left"></div>
     <!--====== SIDEBAR PART ENDS ======-->
     <!-- Start header Area -->
-    <section id="hero-area" class="header-area header-eight">
+    <section id="hero-area" class="header-area header-eight" style="background: url('assets/images/footer.webp') no-repeat center center; background-size: cover;">
       <div class="container-fluid">
         <!-- Use container-fluid for full width -->
         <div class="row justify-content-center align-items-center text-center">
@@ -157,8 +158,8 @@
         </div>
         <div class="row align-items-center">
           <div class="col-lg-6 col-12">
-            <div class="about-image-five">
-              <img src="assets/images/about/icon2.webp" alt="about" />
+            <div>
+              <img src="assets/images/about/icon2.webp" alt="about" class="mb-5" />
             </div>
           </div>
           <div class="col-lg-6 col-12">
@@ -167,10 +168,10 @@
               <h3 class="main-title fw-bold">Tentang PT Alreyah Creative Production</h3>
               <div class="about-five-tab">
                 <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <div class="nav nav-tabs" id="nav-tab-1" role="tablist">
                     <!-- <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
                     type="button" role="tab" aria-controls="nav-who" aria-selected="true">Kami Adalah</button> -->
-                    <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                    <div class="tab-pane fade show active" id="nav-who-1" role="tabpanel" aria-labelledby="nav-who-tab-1">
                       <p>
                         <b>PT ACP (Alreyah Creative Production)</b> adalah startup yang fokus mengembangkan potensi dan kreativitas pelajar melalui program beasiswa, pelatihan kerja, dan sponsorship. Kami menyediakan wadah untuk mengasah bakat, keterampilan, serta mendukung pendidikan secara menyeluruh.
                       </p>
@@ -185,7 +186,7 @@
       <!-- container -->
       <!--====== ABOUT FIVE PART ENDS ======-->
       <!--====== ABOUT FIVE PART START ======-->
-      <div class="container pb-5">
+      <div class="container pb-lg-5 pb-0">
         <!-- Add this container div -->
         <div class="row align-items-center">
           <div class="col-lg-6 col-12">
@@ -193,10 +194,10 @@
               <h3 class="small-title text-lg mt-5">Visi</h3>
               <div class="about-five-tab">
                 <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <div class="nav nav-tabs" id="nav-tab-2" role="tablist">
                     <!-- <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
                   type="button" role="tab" aria-controls="nav-who" aria-selected="true">Kami Adalah</button> -->
-                    <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                    <div class="tab-pane fade show active" id="nav-who-2" role="tabpanel" aria-labelledby="nav-who-tab-2">
                       <p>Membentuk generasi muda yang inovatif, produktif, dan mampu bersaing di kancah global melalui sinergi antara pendidikan dan pengembangan kreativitas dalam industri. Sinergi inilah kunci untuk mengoptimalkan potensi setiap individu.</p>
                     </div>
                   </div>
@@ -205,10 +206,10 @@
               <h3 class="small-title text-lg mt-5">Misi</h3>
               <div class="about-five-tab">
                 <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <div class="nav nav-tabs" id="nav-tab-3" role="tablist">
                     <!-- <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
                   type="button" role="tab" aria-controls="nav-who" aria-selected="true">Kami Adalah</button> -->
-                    <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                    <div class="tab-pane fade show active" id="nav-who-3" role="tabpanel" aria-labelledby="nav-who-tab-3">
                       <p>Mendampingi generasi muda dalam menyalurkan bakat dan meningkatkan kompetensi melalui program-program unggulan, seperti sponsorship, pelatihan kerja, dan beasiswa, guna menciptakan masa depan yang lebih cerah dan berdaya saing.</p>
                     </div>
                   </div>
@@ -235,8 +236,8 @@
             <h6 class="small-title text-lg">
               <u>CEO & Founder</u>
             </h6>
-            <h2 class="main-title fw-bold">Reziana Firdaus</h2>
-            <hr class="bg-primary border-0 mt-3" style="height: 5px;">
+            <h2 class="main-title fw-bold">John Doe</h2>
+            <hr class="custom-hr" style="height: 1.2px;">
             <p>PT. Alreyah Creative Production berkomitmen mengembangkan talenta melalui program inovatif yang mengasah keterampilan, memperluas wawasan, dan menumbuhkan kreativitas. Dengan pendekatan kolaboratif berbasis teknologi, kami menciptakan ekosistem bagi individu untuk berkembang dan memberi dampak positif bagi masyarakat.</p>
           </div>
         </div>
@@ -262,38 +263,47 @@
         </div>
       </div>
       <!--======  End Section Title Five ======-->
-      <div class="container mb-5">
+      <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="single-services">
-              <div class="service-icon">
-                <i class="lni lni-hand-taking-dollar"></i>
+              <div class="service-image">
+                <img src="assets/images/about/educationprogram.webp" alt="Sponsorship">
+                <div class="service-icon">
+                  <i class="lni lni-hand-taking-dollar"></i>
+                </div>
               </div>
               <div class="service-content">
-                <h4>Sponsorship Funding</h4>
+                <h4 class="mb-3">Sponsorship Funding</h4>
                 <p>Pendanaan dari sponsor perusahaan menjadi katalis penting dalam memajukan pendidikan dan inovasi. Melalui dukungan dana, program, dan acara, perusahaan membantu memperluas akses belajar dan mempercepat pengembangan teknologi di institusi pendidikan. Kemitraan ini tidak hanya menguntungkan sekolah dan siswa, tetapi juga memperkuat hubungan perusahaan dengan talenta masa depan, menciptakan dampak yang positif bagi masyarakat.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="single-services">
-              <div class="service-icon">
-                <i class="lni lni-bulb-4"></i>
+              <div class="service-image">
+                <img src="assets/images/about/eventmanagement.webp" alt="Event Management">
+                <div class="service-icon">
+                  <i class="lni lni-bulb-4"></i>
+                </div>
               </div>
               <div class="service-content">
-                <h4>Event Management</h4>
+                <h4 class="mb-3">Event Management</h4>
                 <p>Mengadakan event edukasi seperti lomba mewarnai, menggambar, dance, dan menyanyi merupakan cara menyenangkan untuk mengasah kreativitas dan memberikan pembelajaran. Event ini bisa diselenggarakan di sekolah, komunitas, atau acara besar, memberikan pengalaman berharga untuk mengembangkan keterampilan peserta dari berbagai usia. Anak-anak dan remaja pun dapat menjadi lebih percaya diri, kreatif, dan menghargai kerja keras.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="single-services">
-              <div class="service-icon">
-                <i class="lni lni-graduation-cap-1"></i>
+              <div class="service-image">
+                <img src="assets/images/about/sponsorshipfunding.webp" alt="Education Program">
+                <div class="service-icon">
+                  <i class="lni lni-graduation-cap-1"></i>
+                </div>
               </div>
               <div class="service-content">
-                <h4>Education Program</h4>
-                <p>Program kunjungan pengisian seminar tentang beasiswa kuliah dan manajemen diri menjadi siswa merupakan inisiatif yang bertujuan memberikan wawasan kepada kalangan pelajar mengenai peluang beasiswa serta pentingnya manajemen diri dalam menjalani pendidikan. Seminar ini diadakan di sekolah-sekolah dan institusi pendidikan dengan mengundang para ahli, pengelola beasiswa, dan juga motivator yang berkompeten dalam bidang pendidikan.</p>
+                <h4 class="mb-3">Education Program</h4>
+                <p>Program kunjungan pengisian seminar tentang beasiswa kuliah dan manajemen diri menjadi siswa merupakan inisiatif yang bertujuan memberikan wawasan kepada kalangan pelajar mengenai peluang beasiswa serta pentingnya manajemen diri dalam menjalani pendidikan. Seminar ini diadakan di sekolah-sekolah dan institusi pendidikan dengan mengundang para expert pengelola beasiswa, dan juga motivator yang ahli dalam bidang pendidikan.</p>
               </div>
             </div>
           </div>
@@ -324,61 +334,61 @@
       <!-- End Cta Area -->
       <!-- End Cta Area -->
       <!-- Start Brand Area -->
-      <div id="clients" class="brand-area section">
-        <div class="section-title-five">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="content">
-                  <h2 class="fw-bold">
-                    <u>Mitra Kerja Sama</u>
-                  </h2>
-                  <p>Kami bekerja sama dengan berbagai mitra untuk mencapai pertumbuhan dan kesuksesan bersama, serta memastikan kolaborasi yang berdampak dan berkelanjutan.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
+      <div>
+        <div class="section-title-five mt-5">
           <div class="row">
             <div class="col-12">
-              <div class="image-box text-center d-block d-md-none">
-                <!-- Swiper only visible on mobile -->
-                <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true" loop="true">
-                  <swiper-slide>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                      <img src="assets/images/client-logo/client1_11zon.webp" alt="Brand Logo 1" class="img-fluid">
-                    </div>
-                  </swiper-slide>
-                  <swiper-slide>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                      <img src="assets/images/client-logo/client2_11zon.webp" alt="Brand Logo 2" class="img-fluid">
-                    </div>
-                  </swiper-slide>
-                  <swiper-slide>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                      <img src="assets/images/client-logo/client3_11zon.webp" alt="Brand Logo 3" class="img-fluid">
-                    </div>
-                  </swiper-slide>
-                </swiper-container>
+              <div class="content">
+                <h2 class="fw-bold">
+                  <u>Mitra Kerja Sama</u>
+                </h2>
+                <p>Kami bekerja sama dengan berbagai mitra untuk mencapai pertumbuhan dan kesuksesan bersama, serta memastikan kolaborasi yang berdampak dan berkelanjutan.</p>
               </div>
-              <div class="image-box text-center d-none d-md-block">
-                <!-- Static images visible on larger screens -->
-                <div class="row justify-content-center align-items-center g-3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="image-box text-center d-block d-md-none">
+              <!-- Swiper only visible on mobile -->
+              <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true" loop="true" init="false">
+                <!-- Prevent auto-init -->
+                <swiper-slide>
                   <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <img src="assets/images/client-logo/client1_11zon.webp" alt="Brand Logo 1" class="img-fluid">
+                    <img src="assets/images/client-logo/client1.webp" alt="Brand Logo 1" class="img-fluid">
                   </div>
+                </swiper-slide>
+                <swiper-slide>
                   <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <img src="assets/images/client-logo/client2_11zon.webp" alt="Brand Logo 2" class="img-fluid">
+                    <img src="assets/images/client-logo/client2.webp" alt="Brand Logo 2" class="img-fluid">
                   </div>
+                </swiper-slide>
+                <swiper-slide>
                   <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <img src="assets/images/client-logo/client3_11zon.webp" alt="Brand Logo 3" class="img-fluid">
+                    <img src="assets/images/client-logo/client3.webp" alt="Brand Logo 3" class="img-fluid">
                   </div>
+                </swiper-slide>
+              </swiper-container>
+            </div>
+            <div class="image-box text-center d-none d-md-block">
+              <!-- Static images visible on larger screens -->
+              <div class="row justify-content-center align-items-center g-3">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                  <img src="assets/images/client-logo/client1.webp" alt="Brand Logo 1" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                  <img src="assets/images/client-logo/client2.webp" alt="Brand Logo 2" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                  <img src="assets/images/client-logo/client3.webp" alt="Brand Logo 3" class="img-fluid">
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <!-- Start Latest News Area -->
@@ -408,18 +418,23 @@
             <!-- Single News -->
             <div class="single-news">
               <div class="image">
-                <a href="javascript:void(0)">
-                  <img class="news-image" src="assets/images/blog/placeholder.png" alt="Blog" />
+                <a href="news1.html">
+                  <img class="news-image" src="assets/images/news/bgj.webp" alt="Blog" />
                 </a>
                 <div class="meta-details">
-                  <span>EVENT</span>
+                  <span>NEWS</span>
                 </div>
               </div>
               <div class="content-body">
-                <h4 class="title">
-                  <a href="javascript:void(0)">Judul Berita & Artikel</a>
+                <h4 class="title mt-4 mb-2">
+                  <a href="news1.html">Rayakan Semangat Belajar: Lomba Education Event di BG Junction Surabaya</a>
                 </h4>
-                <p> Ini adalah teks sementara untuk menggantikan konten berita. Informasi lengkap akan segera diperbarui. </p>
+                <a href="news1.html" class="read-more fs-5">Read More <i class="lni lni-angle-double-right"></i>
+                </a>
+                <div class="news-details">
+                  <i class="lni lni-map-marker-5"></i>
+                  <span>21 Februari 2025, Surabaya</span>
+                </div>
               </div>
             </div>
             <!-- End Single News -->
@@ -428,18 +443,23 @@
             <!-- Single News -->
             <div class="single-news">
               <div class="image">
-                <a href="javascript:void(0)">
-                  <img class="news-image" src="assets/images/blog/placeholder.png" alt="Blog" />
+                <a href="news2.html">
+                  <img class="news-image" src="assets/images/news/dbl.webp" alt="Blog" />
                 </a>
                 <div class="meta-details">
-                  <span>EVENT</span>
+                  <span>NEWS</span>
                 </div>
               </div>
               <div class="content-body">
-                <h4 class="title">
-                  <a href="javascript:void(0)">Judul Berita & Artikel</a>
+                <h4 class="title mt-4 mb-2">
+                  <a href="news2.html">Sinergi Kreatif: PT ACP dan DBL Bersatu untuk Sukseskan Event Spektakuler</a>
                 </h4>
-                <p> Ini adalah teks sementara untuk menggantikan konten berita. Informasi lengkap akan segera diperbarui. </p>
+                <a href="news2.html" class="read-more fs-5">Read More <i class="lni lni-angle-double-right"></i>
+                </a>
+                <div class="news-details">
+                  <i class="lni lni-map-marker-5"></i>
+                  <span>1 Februari 2025, Surabaya</span>
+                </div>
               </div>
             </div>
             <!-- End Single News -->
@@ -448,18 +468,23 @@
             <!-- Single News -->
             <div class="single-news">
               <div class="image">
-                <a href="javascript:void(0)">
-                  <img class="news-image" src="assets/images/blog/placeholder.png" alt="Blog" />
+                <a href="news3.html">
+                  <img class="news-image" src="assets/images/news/stiga.webp" alt="Blog" />
                 </a>
                 <div class="meta-details">
-                  <span>EVENT</span>
+                  <span>NEWS</span>
                 </div>
               </div>
               <div class="content-body">
-                <h4 class="title">
-                  <a href="javascript:void(0)">Judul Berita & Artikel</a>
+                <h4 class="title mt-4 mb-2">
+                  <a href="news3.html">Dukung Prestasi Pelajar: BCA Jadi Sponsorship Utama di SMKN 3 Surabaya</a>
                 </h4>
-                <p> Ini adalah teks sementara untuk menggantikan konten berita. Informasi lengkap akan segera diperbarui. </p>
+                <a href="news3.html" class="read-more fs-5">Read More <i class="lni lni-angle-double-right"></i>
+                </a>
+                <div class="news-details">
+                  <i class="lni lni-map-marker-5"></i>
+                  <span>9 Januari 2025, Surabaya</span>
+                </div>
               </div>
             </div>
             <!-- End Single News -->
@@ -468,9 +493,11 @@
       </div>
     </div>
     <!-- End Latest News Area -->
-    <div class="container d-flex justify-content-center">
-      <img src="assets/images/about/icon4.webp" alt="about" class="end-img" />
-    </div>
+    <section>
+      <div class="container d-flex justify-content-center">
+        <img src="assets/images/about/icon4.webp" alt="about" class="end-img" />
+      </div>
+    </section>
     <!-- ========================= contact-section start ========================= -->
     <section id="contact" class="contact-section">
       <div class="section-title-five">
@@ -544,23 +571,23 @@
               <form action="https://formspree.io/f/xpwqklpp" method="POST" class="contact-form">
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" name="name" id="name" placeholder="Name" required />
+                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="name" required />
                   </div>
                   <div class="col-md-6">
-                    <input type="email" name="email" id="email" placeholder="Email" required />
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required />
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" name="phone" id="phone" placeholder="Phone" required />
+                    <input type="text" name="phone" id="phone" placeholder="Phone" autocomplete="tel" required />
                   </div>
                   <div class="col-md-6">
-                    <input type="text" name="subject" id="email" placeholder="Subject" required />
+                    <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="off" required />
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-12">
-                    <textarea name="message" id="message" placeholder="Type Message" rows="5"></textarea>
+                    <textarea name="message" id="message" placeholder="Type Message" rows="5" autocomplete="off"></textarea>
                   </div>
                 </div>
                 <div class="row">
@@ -675,67 +702,6 @@
     <a href="#" class="scroll-top btn-hover">
       <i class="lni lni-chevron-up"></i>
     </a>
-    <!--====== js ======-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/glightbox.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script>
-      //===== close navbar-collapse when a  clicked
-      let navbarTogglerNine = document.querySelector(".navbar-nine .navbar-toggler");
-      navbarTogglerNine.addEventListener("click", function() {
-        navbarTogglerNine.classList.toggle("active");
-      });
-      // ==== left sidebar toggle
-      let sidebarLeft = document.querySelector(".sidebar-left");
-      let overlayLeft = document.querySelector(".overlay-left");
-      let sidebarClose = document.querySelector(".sidebar-close .close");
-      overlayLeft.addEventListener("click", function() {
-        sidebarLeft.classList.toggle("open");
-        overlayLeft.classList.toggle("open");
-      });
-      sidebarClose.addEventListener("click", function() {
-        sidebarLeft.classList.remove("open");
-        overlayLeft.classList.remove("open");
-      });
-      // ===== navbar nine sideMenu
-      let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
-      sideMenuLeftNine.addEventListener("click", function() {
-        sidebarLeft.classList.add("open");
-        overlayLeft.classList.add("open");
-      });
-      //========= glightbox
-      GLightbox({
-        'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoplayVideos': true,
-      });
-      // Select the buttons
-      const scrollTopButton = document.querySelector('.scroll-top');
-      const contactUsButton = document.querySelector('.contact-us');
-      // Function to check if the keyboard is open
-      function checkKeyboard() {
-        if (window.innerHeight < 500) { // Adjust the height threshold as needed
-          scrollTopButton.classList.add('hidden');
-          contactUsButton.classList.add('hidden');
-        } else {
-          scrollTopButton.classList.remove('hidden');
-          contactUsButton.classList.remove('hidden');
-        }
-      }
-      // Add event listener for resize event
-      window.addEventListener('resize', checkKeyboard);
-      // Initial check
-      checkKeyboard();
-    </script>
-    <script>
-      window.va = window.va || function() {
-        (window.vaq = window.vaq || []).push(arguments);
-      };
-    </script>
-    <script defer src="/_vercel/insights/script.js"></script>
     <p class="text-center custom-grey">Developed By RAFFA</p>
   </body>
 </html>
